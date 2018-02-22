@@ -11,10 +11,17 @@
     <title>Nebraska Home Page</title>
 </head>
 <body>
-<h1>Welcome to Nebraska</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <h1>Welcome to Nebraska</h1>
 
-<h6>This page has been updated</h6>
-Another change
+        <h6>This page has been updated</h6>
+
+      </div>
+    </div>
+  </div>
+
 
 
 
