@@ -1,14 +1,4 @@
-<?php
-$userName = "";
-$userPass = "";
-if (isset($_POST['btn-signIn'])) {
-    $userName = trim($_POST['userName']);
-    $userPass = trim($_POST['userPass']);
-    $code = md5($userPass);
-}
-?>
 
-<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -36,32 +26,18 @@ if (isset($_POST['btn-signIn'])) {
               <form method="POST">
                   <div class="form-row">
                       <div class="col">
-                          <input type="username" class="form-control" id="user" aria-describedby="user" placeholder="User name" name="userName"/>
+                          <input type="username" class="form-control" aria-describedby="id" placeholder="User name" name="id" value="<?=isset($nebraska->id)?$nebraska->id:''; ?>"/>
                       </div>
                       <div class="col">
-                          <input type="Password" class="form-control" id="pass" aria-describedby="password" placeholder="Password" name="userPass"/>
+                          <input type="Password" class="form-control" aria-describedby="name" placeholder="Password" name="name"value="<?=isset($nebraska->name)?$nebraska->name:''; ?>"/>
                       </div>
-                      <button type="submit" class="btn btn-primary" name="btn-signIn">Let's do this thing</button>
+                      <button type="submit" class="btn btn-primary" name="login" value="login">Let's do this thing</button>
                   </div>
               </form>
             </div>
           <br />
 
-          <?php if(isset($userName) && $userName === "Luke"){
-            if ($code === "a5ab588786f25a4ef5feacf9f27b18d4"){?>
-                Hey Luke, it looks like your login was a success!<br /><?php
-            }else {
-                echo "It does not appear you typed the correct password for ".$userName;
-            }
-          }else if(isset($userName) && $userName === "ct310"){
-            if ($code === "48f2f942692b08ec9de1ef9ada5230a3"){?>
-                Hey ct310, it looks like your login was a success!<br /><?php
-            }else {
-                echo "It does not appear you typed the correct password for ".$userName;
-            }
-          }else {
-            echo "We didn't recognize you, ".$userName.". Perhaps try again with a different login name/pass.";
-          } ?>
+
         </div>
       </div>
     </div>
