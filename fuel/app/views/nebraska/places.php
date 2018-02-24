@@ -15,7 +15,7 @@
             <p class="card-text">Blurb about Carhenge</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted"><a href="#" class="btn btn-warning">Learn More</a></small>
+            <small class="text-muted"><a href="<?=Uri::create('index.php/nebraska/carhenge'); ?>" target="_blank" class="btn btn-warning">Learn More</a></small>
           </div>
         </div>
         <div class="card border-primary">
@@ -25,7 +25,7 @@
             <p class="card-text">Blurb about Zoo</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted"><a href="#" class="btn btn-primary">Learn More</a></small>
+            <small class="text-muted"><a href="<?=Uri::create('index.php/nebraska/zooAqua'); ?>" target="_blank" class="btn btn-primary">Learn More</a></small>
           </div>
         </div>
         <div class="card border-success">
@@ -35,7 +35,7 @@
             <p class="card-text">Blurb about Chimney Rock.</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted"><a href="#" class="btn btn-success">Learn More</a></small>
+            <small class="text-muted"><a href="<?=Uri::create('index.php/nebraska/chimney'); ?>" target="_blank" class="btn btn-success">Learn More</a></small>
           </div>
         </div>
       </div>
