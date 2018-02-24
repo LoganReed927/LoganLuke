@@ -57,6 +57,7 @@
                         </div>
                     </div>
                 </div>
+                <img class="card-img-bottom" src="../../img/chimney2.jpg" alt="Card image cap">
             </div>
         </div>
     </div>
