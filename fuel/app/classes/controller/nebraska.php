@@ -18,6 +18,33 @@ class Controller_Nebraska extends Controller
         $layout->footer = Response::forge($footer);
         return $layout;
     }
+    public function action_carhenge(){
+        $layout = View::forge('nebraska/carhenge');
+        $nav = View::forge('nebraska/nav');
+        $footer = View::forge('nebraska/footer');
+
+        $layout->nav = Response::forge($nav);
+        $layout->footer = Response::forge($footer);
+        return $layout;
+    }
+    public function action_zooAqua(){
+        $layout = View::forge('nebraska/zooAqua');
+        $nav = View::forge('nebraska/nav');
+        $footer = View::forge('nebraska/footer');
+
+        $layout->nav = Response::forge($nav);
+        $layout->footer = Response::forge($footer);
+        return $layout;
+    }
+    public function action_chimney(){
+        $layout = View::forge('nebraska/chimney');
+        $nav = View::forge('nebraska/nav');
+        $footer = View::forge('nebraska/footer');
+
+        $layout->nav = Response::forge($nav);
+        $layout->footer = Response::forge($footer);
+        return $layout;
+    }
 
     public function get_login($id = null)
     {
