@@ -26,5 +26,8 @@
         <a class="nav-link disabled" href="#">Disabled</a>
       </li>
     </ul>
+    <div class="my-2 my-lg-0">
+      <a class="btn btn-outline-warning my-2 my-sm-0" href="<?=Uri::create('index.php/nebraska/login'); ?>" target="_blank">Login</a>
+    </div>
   </div>
 </nav>
