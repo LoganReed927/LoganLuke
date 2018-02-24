@@ -58,10 +58,30 @@
                     </div>
                 </div>
             </div>
+            <div class="card-columns">
+                <div class="card">
+                    <img class="card-img-top" src="../../img/zooSunset.jpg" alt="Card image cap" height="300px" width="500px">
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="../../img/zooInside.jpg" alt="Card image cap" height="400px">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="../../img/zooJelly.jpg" alt="Card image" height="500px" width="1000px">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="../../img/zoo.jpg" alt="Card image" height="175px" width="425px">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="../../img/zooWater.jpg" alt="Card image">
+                </div>
+                <div class="card">
+                    <img class="card-img" src="../../img/zoo2.jpg" alt="Card image" height="400px">
+                </div>
+            </div>
         </div>
     </div>
 </div>
-
+<br><br><br>
 <div class="container">
     <?= $footer; ?>
 </div>

@@ -17,9 +17,9 @@
           Attractions
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Chimney Rock</a>
-          <a class="dropdown-item" href="#">Carhenge</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item " href="<?=Uri::create('index.php/nebraska/carhenge'); ?>" target="_blank">Carhenge</a>
+          <a class="dropdown-item" href="<?=Uri::create('index.php/nebraska/zooAqua'); ?>" target="_blank">Henry Doorly Zoo and Aquarium</a>
+          <a class="dropdown-item" href="<?=Uri::create('index.php/nebraska/chimney'); ?>" target="_blank">Chimney Rock</a>
         </div>
       </li>
       <li class="nav-item">

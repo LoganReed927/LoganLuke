@@ -10,7 +10,7 @@
 
     <title>Carhenge</title>
 </head>
-<body>
+<body background-image="url: ('../../img/rustic.jpg')">
 
 <!-- Start of the navigation bar-->
 <?=$nav; ?>
@@ -57,7 +57,7 @@
                         </div>
                     </div>
                 </div>
-                <img class="card-img-bottom" src="../img/car.jpg" alt="Card image cap">
+                <img class="card-img-bottom" src="../../img/car.jpg" alt="Card image cap">
             </div>
         </div>
     </div>
