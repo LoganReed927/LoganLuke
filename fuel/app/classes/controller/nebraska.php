@@ -46,7 +46,7 @@ class Controller_Nebraska extends Controller
         return $layout;
     }
 
-    public function get_login($id = null)
+    public function get_login($id, $pass)
     {
         $layout = View::forge('nebraska/login');
         $nav = View::forge('nebraska/nav');
@@ -58,13 +58,12 @@ class Controller_Nebraska extends Controller
         return $layout;
     }
 
-    public function post_login($id = null)
+    public function post_login($id, $pass)
     {
-        $nebraska = new Nebraska($id);
+        $nebraska = new Nebraska($id, $pass);
         $nebraska->id = $_POST['id'];
         $nebraska->name = $_POST['name'];
         $nebraska->save();
         Response::redirect('index.php/nebraska');
     }
 }
-
