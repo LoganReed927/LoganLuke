@@ -36,24 +36,19 @@
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="PR" role="tabpanel" aria-labelledby="nav-home-tab">
                             <h4 class="card-title" >What the Heck is this Thing?</h4>
-                            <p>&#9656;<br />
-                                &#9656;<br />
-                                &#9656;<br />
-                                &#9656;<br /></p>
+                            <p>&#9656; Carhenge is a replica of England's Stonehenge.<br />
+                                &#9656; However, instead of being built with stones, it is created from vintage American cars!<br />
+                                &#9656; It is made up of 38 automobiles measuring 96 feet in diameter.<br /></p>
                         </div>
                         <div class="tab-pane fade" id="XC" role="tabpanel" aria-labelledby="nav-profile-tab">
                             <h4 class="card-title">The History of Carhenge</h4>
-                            <p>&#9656;<br />
-                                &#9656;<br />
-                                &#9656;<br />
-                                &#9656;<br />
-                                &#9656;</p>
+                            <p>&#9656; It was built in 1987 by Jim Reinders as a memorial to his father, who studied the structure of Stonehenge while studing abroad.<br />
+                                &#9656; Overtime, other car structures have been added to the Carhenge site, making it now known as the Car Art Reserve<br /></p>
                         </div>
                         <div class="tab-pane fade" id="RA" role="tabpanel" aria-labelledby="nav-contact-tab">
                             <h4 class="card-title">How About some Awesome Facts!</h4>
-                            <p>&#9656;<br />
-                                &#9656;<br />
-                                &#9656;</p>
+                            <p>&#9656; In 2011, the attraction was listed for sale for 300,000. It was later, donated to the Citizens of Alliance.<br />
+								&#9656; The August 2017 solar eclipse included Carhenge in its path of totality, resulting in 4,000 people view the eclipse from that spot.<br /></p>
                         </div>
                     </div>
                 </div>
