@@ -4,9 +4,9 @@ namespace Model;
 
 class Nebraska
 {
-    private $users = array("ct310", "ewanlp", "logan");
-    private $id;
-    private $pass;
+    public $users = array("ct310", "ewanlp", "logan");
+    public $id;
+    public $pass;
     const FILENAME = "nebraska.model";
     const file = 'user.txt';
 
