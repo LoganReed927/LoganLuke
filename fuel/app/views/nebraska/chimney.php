@@ -36,24 +36,20 @@
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="PR" role="tabpanel" aria-labelledby="nav-home-tab">
                             <h4 class="card-title" >History of Chimney Rock</h4>
-                            <p>&#9656;<br />
-                                &#9656;<br />
-                                &#9656;<br />
-                                &#9656;<br /></p>
+                            <p>&#9656; The name "Chimney Rock" most likely originated from early fur traders, but was acknowledged by Native American settlements prior to such naming.<br />
+                                &#9656; The first recorded mentioning of Chimney Rock was in 1827 with a variety of proposed names (Chimley Rock, Chimney Tower)<br />
+                                &#9656; A small town named Chimney Rock once stood near the base of the formation, which most likley was the final inspiration for its established name.<br /></p>
                         </div>
                         <div class="tab-pane fade" id="XC" role="tabpanel" aria-labelledby="nav-profile-tab">
                             <h4 class="card-title">How to Get Here, and What You can Enjoy</h4>
-                            <p>&#9656;<br />
-                                &#9656;<br />
-                                &#9656;<br />
-                                &#9656;<br />
-                                &#9656;</p>
+                            <p>&#9656; The landmark is visible to drivers along U.S. Route 26 and Nebraska Highway 92.<br />
+                                &#9656; Chimney Rock is located 20 miles southeast of Scotts Bluff National Monument, <br />
+                                &#9656; Today, the Ethel and Christopher J. Abbot Visitor Center features interactive videos and exhibits about the pioneers who contributed to Chimney Rock's discovery <br /></p>
                         </div>
                         <div class="tab-pane fade" id="RA" role="tabpanel" aria-labelledby="nav-contact-tab">
                             <h4 class="card-title">How About some Awesome Facts!</h4>
-                            <p>&#9656;<br />
-                                &#9656;<br />
-                                &#9656;</p>
+                            <p>&#9656; Due to erosion and lightning, Chimney Rock was taller when it was first seen by settlers versus its height today.<br />
+                                &#9656; The original Native American name roughly translated to "elk penis", and variations on that were considered when settlers were establishing a permanent name for it.<br /></p>
                         </div>
                     </div>
                 </div>

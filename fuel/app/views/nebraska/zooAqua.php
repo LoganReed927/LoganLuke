@@ -35,25 +35,22 @@
                 <div class="card-body">
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="PR" role="tabpanel" aria-labelledby="nav-home-tab">
-                            <h4 class="card-title" >History, some other stuff (idk)</h4>
-                            <p>&#9656;<br />
-                                &#9656;<br />
-                                &#9656;<br />
-                                &#9656;<br /></p>
+                            <h4 class="card-title" >History</h4>
+                            <p>&#9656; The zoo began in 1894 as Riverview Park Zoo<br />
+                                &#9656; 4 years later, it was home to over 120 animals<br />
+                                &#9656; In 1963,  Margaret Hitchcock Doorly donated $750,000 and asked it be renamed after her late husband, Henry Doorly<br /></p>
                         </div>
                         <div class="tab-pane fade" id="XC" role="tabpanel" aria-labelledby="nav-profile-tab">
-                            <h4 class="card-title">Prices, Crowds, Animals</h4>
-                            <p>&#9656;<br />
-                                &#9656;<br />
-                                &#9656;<br />
-                                &#9656;<br />
-                                &#9656;</p>
+                            <h4 class="card-title">Cool Exhibits</h4>
+                            <p>&#9656; The Lied Jungle is one of the largest indoor rainforest exhibits in the world!<br />
+                                &#9656; Inside lies 90 different species of plants and animals. Some notable ones include the Blue Monkey, the Black Howler Monkey, and the Phillipine crocodile!<br />
+                                &#9656; The Scott Kingdom of the Seas Aquarium exhibits aquatic life from around the world, including penguins, eels, sharks, stingrays, and more!<br /></p>
                         </div>
                         <div class="tab-pane fade" id="RA" role="tabpanel" aria-labelledby="nav-contact-tab">
-                            <h4 class="card-title">How About some Awesome Facts!</h4>
-                            <p>&#9656;<br />
-                                &#9656;<br />
-                                &#9656;</p>
+                           <h4 class="card-title">Prices & Crowds</h4>
+                            <p>&#9656; Admission prices vary depending on the season of the year, but they tend to stay between $15-20 for a general adult ticket.<br />
+                                &#9656; Children tickets vary between $10-12.95<br />
+                                &#9656; If you want less crowds, it's recommended to go in the colder months, but you may miss some of the neat animals that only like it warm!</p>
                         </div>
                     </div>
                 </div>
