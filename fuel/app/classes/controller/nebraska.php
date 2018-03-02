@@ -82,6 +82,15 @@ class Controller_Nebraska extends Controller
             return $content;
         }
     }
+    public function action_aboutus(){
+    	$layout = View::forge('nebraska/about');
+        $nav = View::forge('nebraska/nav');
+        $footer = View::forge('nebraska/footer');
+
+        $layout->nav = Response::forge($nav);
+        $layout->footer = Response::forge($footer);
+        return $layout;
+	}
 }
 
 
