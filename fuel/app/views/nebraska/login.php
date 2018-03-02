@@ -15,7 +15,44 @@
   <!-- Start of the navigation bar-->
   <?=$nav; ?>
 
-  <?=$loginForm; ?>
+  <?php if(isset($username)){?>
+    <div class="container text-center">
+      <br /><br /><br /><br /><br /><br /><br />
+      <div class="row">
+        <div class="col">
+          <h2>It appears you've already signed in!</h2>
+          <h4><button class="btn btn-danger" href="<?=Uri::create('index.php/nebraska/logout'); ?>" target="_blank">Sign in with a different account</button></h4>
+          <h4><button class="btn btn-outline-danger my-2 my-sm-0">Or, logout here</button></h4>
+        </div>
+      </div>
+    </div>
+  <?php } else { ?>
+    <div class="container">
+        <br /><br /><br />
+        <div class="row">
+            <div class="col text-center">
+              <h2 class="text-center">Sign In</h2>
+                <br /><br />
+                <div id="formm">
+                    <form method="POST" action="check">
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="username" class="form-control" aria-describedby="username" placeholder="User name" name="username"/>
+                            </div>
+                            <div class="col">
+                                <input type="Password" class="form-control" aria-describedby="password" placeholder="Password" name="password"/>
+                            </div>
+                            <button type="submit" class="btn btn-primary" name="login" value="login">Let's do this thing</button>
+                        </div>
+                    </form>
+                </div>
+                <br />
+            </div>
+        </div>
+    </div>
+  <?php } ?>
+  <!-- Start of login part -->
+
 
   <div class="container">
     <?= $footer; ?>
