@@ -15,36 +15,11 @@
   <!-- Start of the navigation bar-->
   <?=$nav; ?>
 
-    <!-- Start of login part -->
-    <div class="container">
-      <h2 class="text-center">Sign In</h2>
-      <br /><br /><br />
-      <div class="row">
-        <div class="col text-center">
-          <br /><br />
-            <div id="formm">
-              <form method="POST">
-                  <div class="form-row">
-                      <div class="col">
-                          <input type="username" class="form-control" aria-describedby="id" placeholder="User name" name="id" value="<?=isset($nebraska->id)?$nebraska->id:''; ?>"/>
-                      </div>
-                      <div class="col">
-                          <input type="Password" class="form-control" aria-describedby="name" placeholder="Password" name="name"value="<?=isset($nebraska->name)?$nebraska->name:''; ?>"/>
-                      </div>
-                      <button type="submit" class="btn btn-primary" name="login" value="login">Let's do this thing</button>
-                  </div>
-              </form>
-            </div>
-          <br />
+  <?=$loginForm; ?>
 
-
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <?= $footer; ?>
-    </div>
+  <div class="container">
+    <?= $footer; ?>
+  </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
