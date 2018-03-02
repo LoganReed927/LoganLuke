@@ -27,7 +27,11 @@
       </li>
     </ul>
     <div class="my-2 my-lg-0">
+        <?php if(isset($_SESSION['username'])) { ?>
+        Hello <?= $username; ?>   <a class="btn btn-outline-warning my-2 my-sm-0" href="<?=Uri::create('index.php/nebraska/logout'); ?>" target="_blank">Logout</a>
+        <?php } else {?>
       <a class="btn btn-outline-warning my-2 my-sm-0" href="<?=Uri::create('index.php/nebraska/login'); ?>" target="_blank">Login</a>
+        <?php } ?>
     </div>
   </div>
 </nav>
