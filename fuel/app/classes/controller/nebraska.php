@@ -111,6 +111,18 @@ class Controller_Nebraska extends Controller
       $session = Session::instance();
       $session->destroy();
       $content = View::forge('nebraska/logout');
+    }
+    public function action_aboutus(){
+    	$layout = View::forge('nebraska/about');
+        $nav = View::forge('nebraska/nav');
+        $footer = View::forge('nebraska/footer');
+
+        $layout->nav = Response::forge($nav);
+        $layout->footer = Response::forge($footer);
+        return $layout;
+	}
+}
+
 
       return $content;
     }
