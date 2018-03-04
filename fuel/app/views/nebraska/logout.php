@@ -1,5 +1,3 @@
 <?php
-session_start();
-sessions_unset();
-session_destroy();
-header('location: login.php');
+header('location: http://www.cs.colostate.edu/~ewanlp/ct310/index.php/nebraska/login');
+?>
