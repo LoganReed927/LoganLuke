@@ -31,19 +31,30 @@
         <br /><br /><br />
         <div class="row">
             <div class="col text-center">
-              <h2 class="text-center">Sign In</h2>
                 <br /><br />
-                <div id="formm">
+                <div id="formm" class="text-center">
                     <form method="POST" action="check">
-                        <div class="form-row">
-                            <div class="col">
-                                <input type="username" class="form-control" aria-describedby="username" placeholder="User name" name="username"/>
-                            </div>
-                            <div class="col">
+                      <div class="card text-center border-danger w-50 mx-auto">
+                        <div class="card-header  text-danger">
+                          <h2>Welcome!</h2>
+                        </div>
+                        <div class="card-body">
+                          <div class="form-row">
+                              <div class="form-group col">
+                                  <input type="text" class="form-control" aria-describedby="username" placeholder="User name" name="username"/>
+                              </div>
+                          </div>
+                          <div class="form-row">
+                            <div class="form-group col">
                                 <input type="Password" class="form-control" aria-describedby="password" placeholder="Password" name="password"/>
                             </div>
-                            <button type="submit" class="btn btn-primary" name="login" value="login">Let's do this thing</button>
+                          </div>
+                          <button type="submit" class="btn btn-outline-danger my-2 my-sm-0" name="login" value="login">Sign In</button>
                         </div>
+                        <div class="card-footer text-muted">
+
+                        </div>
+                      </div>
                     </form>
                 </div>
                 <br />

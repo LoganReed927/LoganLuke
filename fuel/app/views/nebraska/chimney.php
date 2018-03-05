@@ -58,6 +58,10 @@
         </div>
     </div>
 </div>
+<br /><br /><br />
+<div class="container">
+  <?= $comment; ?>
+</div>
 
 <div class="container">
     <?= $footer; ?>
