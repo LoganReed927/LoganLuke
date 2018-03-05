@@ -23,6 +23,21 @@ class Controller_Nebraska extends Controller
         $layout->footer = Response::forge($footer);
         return $layout;
     }
+    public function action_about()
+    {
+        $session = Session::instance();
+        $layout = View::forge('nebraska/about');
+        $nav = View::forge('nebraska/nav');
+        $username = $session->get('username');
+        if(isset($username)){
+          $nav->set_safe('username',$username);
+        }
+        $footer = View::forge('nebraska/footer');
+
+        $layout->nav = Response::forge($nav);
+        $layout->footer = Response::forge($footer);
+        return $layout;
+    }
     public function action_carhenge(){
         $session = Session::instance();
         $layout = View::forge('nebraska/carhenge');
