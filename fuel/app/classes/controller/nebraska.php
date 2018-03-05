@@ -106,7 +106,7 @@ class Controller_Nebraska extends Controller
 
         $username = Input::post('username');
         $password = Input::post('password');
-        if(($username === 'ct310' && md5($password) === '48f2f942692b08ec9de1ef9ada5230a3') ||
+        if(($username === 'ct310' && md5($password) === 'a6cebbf02cc311177c569525a0f119d7') ||
             ($username === 'Luke' && $password === 'Ewan') ||
 	     ($username == 'Logan' && md5($password) == 'c00d0edbdd588b4bfbc900e663dcd549')) {
             Session::create();
