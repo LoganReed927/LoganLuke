@@ -42,12 +42,14 @@ class Controller_Nebraska extends Controller
         $session = Session::instance();
         $layout = View::forge('nebraska/carhenge');
         $nav = View::forge('nebraska/nav');
+        $comment = View::forge('nebraska/comment');
         $username = $session->get('username');
         if(isset($username)){
           $nav->set_safe('username',$username);
         }
         $footer = View::forge('nebraska/footer');
         $layout->nav = Response::forge($nav);
+        $layout->comment = Response::forge($comment);
         $layout->footer = Response::forge($footer);
 
         return $layout;
@@ -56,6 +58,7 @@ class Controller_Nebraska extends Controller
         $session = Session::instance();
         $layout = View::forge('nebraska/zooAqua');
         $nav = View::forge('nebraska/nav');
+        $comment = View::forge('nebraska/comment');
         $username = $session->get('username');
         if(isset($username)){
           $nav->set_safe('username',$username);
@@ -63,6 +66,7 @@ class Controller_Nebraska extends Controller
         $footer = View::forge('nebraska/footer');
 
         $layout->nav = Response::forge($nav);
+        $layout->comment = Response::forge($comment);
         $layout->footer = Response::forge($footer);
         return $layout;
     }
@@ -70,6 +74,7 @@ class Controller_Nebraska extends Controller
         $session = Session::instance();
         $layout = View::forge('nebraska/chimney');
         $nav = View::forge('nebraska/nav');
+        $comment = View::forge('nebraska/comment');
         $username = $session->get('username');
         if(isset($username)){
           $nav->set_safe('username',$username);
@@ -77,6 +82,7 @@ class Controller_Nebraska extends Controller
         $footer = View::forge('nebraska/footer');
 
         $layout->nav = Response::forge($nav);
+        $layout->comment = Response::forge($comment);
         $layout->footer = Response::forge($footer);
         return $layout;
     }
@@ -126,18 +132,6 @@ class Controller_Nebraska extends Controller
       $session = Session::instance();
       $session->destroy();
       $content = View::forge('nebraska/logout');
-    }
-    public function action_aboutus(){
-    	$layout = View::forge('nebraska/about');
-        $nav = View::forge('nebraska/nav');
-        $footer = View::forge('nebraska/footer');
-
-        $layout->nav = Response::forge($nav);
-        $layout->footer = Response::forge($footer);
-        return $layout;
-	}
-}
-
 
       return $content;
     }
